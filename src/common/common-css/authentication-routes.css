@@ -1,0 +1,112 @@
+.auth-page-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.auth-page-description {
+  color: grey;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.auth-page-title-container {
+  margin-bottom: 70px;
+}
+
+.auth-page-form-container {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.auth-page-error {
+  color: rgb(238, 0, 0);
+  font-size: 14px;
+}
+
+.auth-page-secondary-button {
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: #2D5A75;
+  user-select: none;
+}
+
+.auth-page-secondary-button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.auth-page-primary-button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.auth-page-secondary-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* We are overriding default styles for the buttons and input fields
+Without the important keyword the styles will reset on page refresh */
+
+.p-button {
+  background-color: #2fd9c4 !important;
+  border-color: #2fd9c4 !important;
+  width: 200px !important;
+  height: 50px !important;
+  border-radius: 20px !important;
+}
+
+.p-button:enabled:hover {
+  background-color: #18a090 !important;
+  border-color: #18a090 !important;
+}
+
+.p-button:enabled:focus {
+  background-color: #18a090 !important;
+  border-color: #18a090 !important;
+  box-shadow: none !important;
+}
+
+.p-button:enabled:focus:hover {
+  box-shadow: 0px 0px 15px #18a090 !important;
+}
+
+.p-button-label {
+  font-size: 1.7em !important;
+  font-weight: 600 !important;
+}
+
+.p-inputtext {
+  height: 50px !important;
+  border-radius: 20px !important;
+  border-color: #2f2f2f !important;
+  width: 100% !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important
+}
+
+.p-inputtext:enabled:hover {
+  border-color: #2fd9c4 !important;
+}
+
+.p-inputtext:enabled:focus {
+  box-shadow: 0px 0px 15px #2fd9c4 !important;
+  border-color: #2fd9c4 !important;
+}
+
+.p-component:focus {
+  box-shadow: 0px, 0px, 0px, 0px !important
+}

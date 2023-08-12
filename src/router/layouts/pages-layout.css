@@ -1,0 +1,7 @@
+#screen-container {
+    display: flex;
+}
+
+#screen-content {
+    flex: 1;
+}

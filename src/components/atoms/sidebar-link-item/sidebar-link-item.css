@@ -1,0 +1,39 @@
+.sidebar-link-item {
+    font-size: 16px;
+    text-decoration: none;
+    color: #F2FCFB;
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    transition-duration: .1s;
+}
+
+.sidebar-link-item:hover {
+    background-color: #90FFDC55;
+    transition-duration: .1s;
+}
+
+.sidebar-link-item-selected {
+    background-color: #90FFDCaa;
+    font-size: 16px;
+    text-decoration: none;
+    color: #F2FCFB;
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.sidebar-link-image-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert();
+}
+
+.sidebar-link-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

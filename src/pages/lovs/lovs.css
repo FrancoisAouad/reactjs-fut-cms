@@ -1,0 +1,9 @@
+.lov-data-grid {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-color: black;
+    border-radius: 30px;
+    background-color: aqua;
+    border: '1px solid #ccc'
+}

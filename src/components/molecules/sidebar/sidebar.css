@@ -1,0 +1,49 @@
+.p-sidebar {
+  background-color: #2fd9c488;
+}
+
+.p-sidebar .p-sidebar-content {
+  padding: 0px;
+}
+
+#sidebar-open-icon {
+  transform: scale(-1);
+  width: 25px;
+  height: 25px;
+}
+
+.sidebar-closed-container {
+  background-color: #2fd9c4;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+#sidebar-open-icon-container {
+  cursor: pointer;
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #68686830;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* overrides default style for sidebar header close icon */
+.p-sidebar .p-sidebar-header .p-sidebar-close:enabled:hover,
+.p-sidebar .p-sidebar-header .p-sidebar-icon:enabled:hover {
+  background-color: transparent;
+}
+
+.p-sidebar .p-sidebar-header .p-sidebar-close:enabled:focus,
+.p-sidebar .p-sidebar-header .p-sidebar-icon:enabled:focus {
+  box-shadow: none;
+}
+
+.p-sidebar .p-sidebar-header {
+  padding: 0
+}

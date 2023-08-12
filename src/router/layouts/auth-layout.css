@@ -1,0 +1,33 @@
+.left-side {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2fd9c4;
+  height: 100%;
+}
+
+#welcome-text {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+#logo-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

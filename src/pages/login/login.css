@@ -1,0 +1,23 @@
+/* login.css */
+body {
+  margin: 0;
+}
+
+.login-form {
+  width: 100%;
+  padding-right: 8vw;
+  padding-left: 8vw;
+}
+
+.form-group {
+  margin-bottom: 50px;
+}
+
+.input-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#password {
+  width: 100%;
+}

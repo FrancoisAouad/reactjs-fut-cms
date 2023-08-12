@@ -1,0 +1,23 @@
+.sidebar-icon {
+    width: 30px;
+    height: 30px;
+    filter: invert();
+}
+
+.sidebar-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    width: 100%;
+}
+
+.sidebar-icon-container-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90FFDCaa;
+    width: 100%;
+    aspect-ratio: 1;
+
+}
